@@ -22,4 +22,26 @@
 
   grid-column: 1 / 2;
   grid-row: 1 / 3;
+
+  background-color: #1992D4;
+
+}
+
+.sidebar-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-header {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
