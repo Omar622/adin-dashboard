@@ -126,7 +126,9 @@ h3 {
   border-left: 8px solid #F0B429;
 }
 
-.project-card h4 {
+.project-card h4,
+.side-bar-card h4,
+.tile div h5 {
   margin: 0px;
 }
 
@@ -134,4 +136,30 @@ h3 {
   display: flex;
   justify-content: flex-end;
   gap: 24px;
+}
+
+.main-content-side-bar {
+  overflow: auto  ;
+}
+
+.side-bar-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 16px;
+}
+
+.tile {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0px;
+  height: 60px;
+}
+.tile img {
+  height: 50px;
+}
+
+p {
+  color: #6e6e6e;
+  font-size: smaller;
 }
