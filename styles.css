@@ -35,6 +35,10 @@
   gap: 15px;
 }
 
+.sidebar i {
+  color: white;
+}
+
 .sidebar-header {
   color: white;
   text-align: center;
