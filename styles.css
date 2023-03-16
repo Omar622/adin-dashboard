@@ -1,13 +1,15 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 6fr;
 }
 
 .header {
-  border: 1px solid black;
-
+  padding: 8px 36px;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .main-content {
@@ -40,8 +42,71 @@
   font-size: 35px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+
+.search form input {
+  height: 25px;
+  width: 80%;
+  border: none;
+  background-color: #E2E8F0;
+  border-radius: 25px;
+  margin: 24px 4px;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.notification .avatar {
+  width: 40px;
+}
+
+.notification i {
+  font-size: 1.4em;
+}
+
+.welcome {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.welcome h5,
+h3 {
+  margin: 3px 8px;
+}
+
+.welcome .avatar {
+  width: 70px;
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.options button {
+  border: none;
+  border-radius: 16px;
+  background-color: #1992D4;
+  color: white;
+  font-weight: bold;
+  width: 80px;
+  height: 30px;
+}
+
+.icon-btn {
+  background-color: white;
+  border: none;
+}
+
+.avatar {
+  border-radius: 50%;
 }
